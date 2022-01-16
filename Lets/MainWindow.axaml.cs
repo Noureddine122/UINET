@@ -20,10 +20,6 @@ namespace Lets
         public void button_click(object sender, RoutedEventArgs e)
         {
             var button = (Button)sender;
-            var txt = (TextBox)this.FindNameScope().Find("Txt");
-            var tt = txt.Text.Trim();
-            var ttt = this.FindControl<RadioButton>("Chek").Width;
-            button.Content = ttt;
         }
         private void InitializeComponent()
         {
